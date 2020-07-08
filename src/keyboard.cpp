@@ -1,0 +1,35 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//	autor : 
+//						Amaya Leo
+//	Compilardor:
+//						g++
+//
+//	Tipo de aplicacion:
+//
+//	Caracteristicas:
+//
+//	Makefile:
+//
+//	Library :							
+//	                    Time.h
+//
+//
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+#include <cstdint>
+#include "keyboard.h"
+
+
+namespace  KEYBOARD{
+
+inline void Keyboard::get_key(std::string tmp)
+    {
+
+
+    }
+
+}

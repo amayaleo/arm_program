@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//	autor : 
+//						Amaya Leo
+//	Compilardor:
+//						g++
+//
+//	Tipo de aplicacion:
+//
+//	Caracteristicas:
+//
+//	Makefile:
+//
+//	Library :							
+//	                    Time.h
+//
+//
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+#include <cstdint>
+#include "device.h"
+#include "debug.h"
+
+namespace  DEVICE{
+
+void Device::get_device(){
+        DEBUG::debugger("command ls -asl");
+    }
+
+}
