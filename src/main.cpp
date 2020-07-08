@@ -22,32 +22,32 @@
 
 
 
-// struct B //: A
-// {
-//     virtual void f()=0;
-//     virtual  ~B()=default;
+struct B //: A
+{
+    virtual void f()=0;
+    virtual  ~B()=default;
             
-//     /* data */
-// };
+    /* data */
+};
 
-// struct A : public B
-// {
-//     A(std::string txt)
-//     :text(txt)
-//     {
+struct A : public B
+{
+    A(std::string txt)
+    :text(txt)
+    {
 
-//     }
-//      void f()override; 
-//     /* data */
+    }
+     void f()override; 
+    /* data */
 
-//     private:
-//         std::string text;
-// };
+    private:
+        std::string text;
+};
 
-// void A::f(){
-//     std::cout << "/* message */" << text << std::endl;
+void A::f(){
+    std::cout << "/* message */" << text << std::endl;
 
-// }
+}
 
 
 
