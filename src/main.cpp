@@ -54,10 +54,10 @@ int main(int argc,char *argv[])
 {
   RUN::App();
 
-//   B * b;
-//   b=new A(" funcion virtual creada \n");
-//   b->f();
-//   if(b)  delete b;
+  B * b;
+  b=new A(" funcion virtual creada \n");
+  b->f();
+  if(b)  delete b;
            
     return 0;
 }
