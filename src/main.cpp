@@ -38,7 +38,6 @@ struct A : public B
 
     }
      void f()override; 
-    /* data */
 
     private:
         std::string text;
